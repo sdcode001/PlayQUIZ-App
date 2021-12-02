@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/menu"
+    tools:context=".menu">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="110dp"
+        android:text="Choose Topic"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="@color/white">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <Button
+            android:id="@+id/topic_1"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:padding="30dp"
+            android:background="@color/green"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="30dp"
+            android:onClick="topic_1"
+            android:text="GENERAL"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_gray"
+            >
+
+        </Button>
+
+        <Button
+            android:id="@+id/topic_2"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:padding="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp"
+            android:onClick="topic_2"
+            android:background="@color/dark_pink"
+            android:text="SPORTS"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            >
+
+        </Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/topic_3"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:padding="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="30dp"
+            android:onClick="topic_3"
+            android:background="@color/yellow"
+            android:text="HISTORY"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_gray"
+            >
+
+        </Button>
+
+        <Button
+            android:id="@+id/topic_4"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:padding="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp"
+            android:onClick="topic_4"
+            android:background="@color/blue"
+            android:text="MOVIES"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            >
+
+        </Button>
+
+
+    </LinearLayout>
+
+</LinearLayout>
